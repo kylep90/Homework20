@@ -1,0 +1,7 @@
+.jumbotron{
+    background-image: url(https://image.freepik.com/free-vector/abstract-technology-background-hacker-concept-programming-coding-binary-computer-code-matrix-background-style_87788-178.jpg);
+    background-image: "height", "100%;";
+    /* background-image: url(https://i.pinimg.com/236x/21/06/39/210639b6696ee1962acc7c1163768d88--hammocks-dream-vacations.jpg); */
+    color: whitesmoke;
+    height: 200px;
+}
