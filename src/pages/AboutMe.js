@@ -1,5 +1,10 @@
 import React from 'react'
 import '../assets/style.css'
+import Madrid from '../assets/images/Madrid.jpg'
+import Teocelo from '../assets/images/Teocelo.jpg'
+import Colombia from '../assets/images/Colombia.jpg'
+import Teotihuacan from '../assets/images/Teotihuacan.jpg'
+import Skiing from '../assets/images/Skiing.jpg'
 
 function AboutMe () {
     return (
@@ -9,19 +14,19 @@ function AboutMe () {
         <div className="carousel-inner">
 
           <div className="carousel-item">
-            <img className="carouselImage" src="Madrid.jpg" className="d-block w-100"/>
+            <img className="carouselImage" src={Madrid} alt="mardrid" className="d-block w-100"/>
           </div>
           <div className="carousel-item">
-            <img className="carouselImage" src="Teocelo.jpg" className="d-block w-100"/>
+            <img className="carouselImage" src={Teocelo} alt="teocelo" className="d-block w-100"/>
           </div>          
           <div className="carousel-item active">
-            <img className="carouselImage" src="Colombia.jpg" className="d-block w-100"/>
+            <img className="carouselImage" src={Colombia} alt="colombia"className="d-block w-100"/>
           </div>
           <div className="carousel-item">
-            <img className="carouselImage" src="Teotihuacan.jpg" className="d-block w-100"/>
+            <img className="carouselImage" src={Teotihuacan} alt="teotihuacan"className="d-block w-100"/>
           </div>
           <div className="carousel-item">
-            <img className="carouselImage" src="Skiing.jpg" className="d-block w-100"/>
+            <img className="carouselImage" src={Skiing} alt="skiing"className="d-block w-100"/>
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

@@ -16,6 +16,9 @@ function App() {
       <NavbarTop />
       <Switch>
         <Route exact path={["/","/index.html"]} component={Home} />
+        <Route exact path={"/aboutme.html"} component={AboutMe} />
+        <Route exact path={"/contact.html"} component={Contact} />
+        <Route exact path={"/portfolio.html"} component={Portfolio} />
         {/* <Home />
         <Contact />
         <Portfolio />

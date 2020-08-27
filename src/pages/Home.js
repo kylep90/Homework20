@@ -1,13 +1,13 @@
 import React from 'react'
 import '../assets/style.css'
-import {Grenada} from '../assets/images/Grenada.jpg'
+import Grenada from '../assets/images/Grenada.jpg'
 
 function Home () {
     return (
         <>
         <div className="homeTop">
            
-            <img src={Grenada} className="mainImage">{Grenada}</img>
+            <img src={Grenada} alt="grenada" className="mainImage"/>
         </div>
       
             <div className="homeTop">
