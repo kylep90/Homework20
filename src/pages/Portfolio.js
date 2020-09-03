@@ -19,10 +19,11 @@ function Portfolio (){
         
                 </ol>
     
-                <section className="carousel-inner">
-                  <section className="carousel-item active">
+                <section className="carousel-inner" style={{maxWidth: "500px", maxHeight: "300px", margin: "auto"}}>
+                 
+                  <section className="carousel-item active" style={{maxWidth: "500px", maxHeight: "300px", textAlign: "centre"}}>
                     <a href="https://kylep90.github.io/Homework3JavaScript/Develop/index.html" target="_blank">
-                    <img src="http://cdn.iphonehacks.com/wp-content/uploads/2019/03/Facebook-passwordsecurity.png" className="d-block w-100" alt="300px"/>
+                    <img src="http://cdn.iphonehacks.com/wp-content/uploads/2019/03/Facebook-passwordsecurity.png"   className="d-block w-100" alt="300px"/>
                     </a>
                     <section className="carousel-caption d-none d-md-block">
                       {/* Added a new className "text-background" in order to see the writing more clearly against whichever background */}
@@ -31,9 +32,9 @@ function Portfolio (){
                     </section>
                   </section>
     
-                  <section className="carousel-item">
+                  <section className="carousel-item"style={{maxWidth: "500px", maxHeight: "300px"}}>
                     <a href="https://kylep90.github.io/Homework4APIs/quizTime.html" target="_blank">
-                    <img src="https://nathenamin.files.wordpress.com/2011/11/welshflag.jpg" className="d-block w-100" alt="300px"/>
+                    <img src="https://nathenamin.files.wordpress.com/2011/11/welshflag.jpg"   className="d-block w-100" alt="300px"/>
                     </a>
                     <section className="carousel-caption d-none d-md-block">
                       <h5 className="text-background">Wales Quiz</h5>
@@ -41,9 +42,9 @@ function Portfolio (){
                     </section>
                   </section>
     
-                  <section className="carousel-item">
+                  <section className="carousel-item" style={{maxWidth: "500px", maxHeight: "300px"}}>
                     <a href="https://kylep90.github.io/Project1/" target="_blank">
-                    <img src="https://dynamic.thoughtworks.com/gatepages/hero_banner_image-c97ed1594515d351f743b8633013b4cb.jpeg" className="d-block w-100" alt="300px"/>
+                    <img src="https://dynamic.thoughtworks.com/gatepages/hero_banner_image-c97ed1594515d351f743b8633013b4cb.jpeg"   className="d-block w-100" alt="300px"/>
                     </a>
                     <section className="carousel-caption d-none d-md-block">
                       <h5 className="text-background">The Backpack Assistant</h5>
@@ -51,9 +52,9 @@ function Portfolio (){
                     </section>
                   </section>
     
-                  <section className="carousel-item">
+                  <section className="carousel-item" style={{maxWidth: "500px", maxHeight: "300px"}}>
                     <a href="https://kylep90.github.io/Homework6Weather/" target="_blank">
-                    <img src="http://www.almanac.com/sites/default/files/image_nodes/weather-forecast-july.jpg" className="d-block w-100" alt="300px"/>
+                    <img src="http://www.almanac.com/sites/default/files/image_nodes/weather-forecast-july.jpg"    className="d-block w-100" alt="300px"/>
                     </a>
                     <section className="carousel-caption d-none d-md-block">
                       <h5 className="text-background">Weather</h5>
@@ -61,9 +62,9 @@ function Portfolio (){
                     </section>
                   </section>
 
-                  <section className="carousel-item">
+                  <section className="carousel-item" style={{maxWidth: "500px", maxHeight: "300px"}}>
                     <a href="https://polar-hamlet-63733.herokuapp.com/" target="_blank">
-                    <img src="https://polar-hamlet-63733.herokuapp.com/plan-it.png" className="d-block w-100" alt="300px"/>
+                    <img src="https://polar-hamlet-63733.herokuapp.com/plan-it.png"  style={{maxWidth: "500px", maxHeight: "300px"}} className="d-block w-100" alt="300px"/>
                     </a>
                     <section className="carousel-caption d-none d-md-block">
                       <h5 className="text-background">Plan-It</h5>
@@ -80,6 +81,7 @@ function Portfolio (){
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="sr-only">Next</span>
                 </a>
+               
               </section>
               </section>
               </section>

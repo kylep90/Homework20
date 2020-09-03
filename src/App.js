@@ -7,6 +7,7 @@ import NavbarBtm from './components/NavbarBtm/index.jsx'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import AboutMe from './pages/AboutMe'
+import Footer from './components/Footer'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 function App() {
@@ -16,15 +17,16 @@ function App() {
       <NavbarTop />
       <Switch>
         <Route exact path={["/","/index.html"]} component={Home} />
-        <Route exact path={"/aboutme.html"} component={AboutMe} />
-        <Route exact path={"/contact.html"} component={Contact} />
-        <Route exact path={"/portfolio.html"} component={Portfolio} />
+        <Route path={"/aboutme.html"} component={AboutMe} />
+        <Route path={"/contact.html"} component={Contact} />
+        <Route path={"/portfolio.html"} component={Portfolio} />
         {/* <Home />
         <Contact />
         <Portfolio />
         <AboutMe /> */}
       </Switch>
       <NavbarBtm />
+      {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );
