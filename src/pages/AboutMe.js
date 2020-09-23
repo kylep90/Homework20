@@ -48,7 +48,7 @@ function AboutMe () {
         <br/>
         
         <p>
-        I am currently undertaking a Coding Bootcamp with the Tec de Monterrey with the plan to become a Full Stack Developer by September 2020.       </p>
+        I am now also a recent graduate from the Tec de Monterrey after completing a Full Stack Developer bootcamp.       </p>
         <br/>
       
           <p>

@@ -9,10 +9,10 @@ function Home () {
            
             <img src={Grenada} alt="grenada" className="mainImage"/>
         </div>
-      
+        
             <div className="homeTop">
             <i className="homeTop">
-               Back-end developer ensuring the highest quality response to your user requests. <br></br>
+               Front-end developer ensuring the highest quality response to your user requests. <br></br>
                #betterthanyournext</i>
                </div>
         </>
