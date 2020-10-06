@@ -1,5 +1,11 @@
 import React from 'react'
 import '../assets/style.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { fabInstagram } from '@fortawesome/free-solid-svg-icons'
+
+
 
 function Contact() {
     return(
@@ -30,12 +36,19 @@ function Contact() {
       </section>
       </section> */}
       <div className="card-body">
+        <h2>Feel free to contact me via my: </h2>
                     <div className=" pt-0 d-md-inline-block d-flex-row text-center text-md-left justyfy-content-md-start justyfy-content-center">
                       <a href="https://www.linkedin.com/in/kyle-pingue-ba1a651a3/" role="button" className=" btn btn-link mr-2">
-                        <i className="fab fa-linkedin fa-lg text-blue" ></i>  Linkedin
+                      <FontAwesomeIcon icon={faLinkedin} />   LinkedIn 
                       </a><br></br>
                       <a href="https://www.instagram.com/kpi1990/?hl=en" role="button" className=" btn btn-link mr-2">
-                        <i aria-hidden="true" className="fab fa-instagram fa-lg text-grey"></i>Instagram
+                        <FontAwesomeIcon icon={faInstagram} />   Instagram
+                      </a>
+                      <br></br>
+                      <a href="mailto:pinguek@gmail.com" role="button" className=" btn btn-link mr-2">
+                        <FontAwesomeIcon icon={faEnvelope} />   Email
+
+                      
                       </a>
                     </div>
       </div>
