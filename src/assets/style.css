@@ -97,3 +97,8 @@ form{
 .title{
     text-align: center;
 }
+
+.text-background{
+    background-color: white;
+    color: black
+}

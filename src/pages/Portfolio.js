@@ -16,6 +16,8 @@ function Portfolio (){
                   <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
         
                 </ol>
     
@@ -25,7 +27,7 @@ function Portfolio (){
                     <a href="https://kylep90.github.io/Homework3JavaScript/Develop/index.html" target="_blank">
                     <img src="http://cdn.iphonehacks.com/wp-content/uploads/2019/03/Facebook-passwordsecurity.png"   className="d-block w-100" alt="300px"/>
                     </a>
-                    <section className="carousel-caption d-none d-md-block">
+                    <section className="carousel-caption ">
                       {/* Added a new className "text-background" in order to see the writing more clearly against whichever background */}
                       <h5 className="text-background">Password Generator</h5>
                       <p className="text-background">Get a unique password.</p>
@@ -44,7 +46,7 @@ function Portfolio (){
     
                   <section className="carousel-item" style={{maxWidth: "500px", maxHeight: "300px"}}>
                     <a href="https://kylep90.github.io/Project1/" target="_blank">
-                    <img src="https://dynamic.thoughtworks.com/gatepages/hero_banner_image-c97ed1594515d351f743b8633013b4cb.jpeg"   className="d-block w-100" alt="300px"/>
+                    <img src="https://dynamic.thoughtworks.com/gatepages/hero_banner_image-c97ed1594515d351f743b8633013b4cb.jpeg"  style={{height: "100%"}} className="d-block w-100" alt="300px"/>
                     </a>
                     <section className="carousel-caption d-none d-md-block">
                       <h5 className="text-background">The Backpack Assistant</h5>
@@ -69,6 +71,16 @@ function Portfolio (){
                     <section className="carousel-caption d-none d-md-block">
                       <h5 className="text-background">Plan-It</h5>
                       <p className="text-background">Plan Now = Fun later!</p>
+                    </section>
+                  </section>
+
+                  <section className="carousel-item" style={{maxWidth: "500px", maxHeight: "300px"}}>
+                    <a href="https://generationarte.herokuapp.com/" target="_blank">
+                    <img src="https://generationarte.herokuapp.com/static/media/GEN.c1494f48.jpg"  style={{maxWidth: "500px", maxHeight: "300px"}} className="d-block w-100" alt="300px"/>
+                    </a>
+                    <section className="carousel-caption d-none d-md-block">
+                      <h5 className="text-background" style={{color:"black"}}>Generation Arte</h5>
+                      <p className="text-background">Platform for likeminded artists</p>
                     </section>
                   </section>
     
